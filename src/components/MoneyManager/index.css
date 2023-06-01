@@ -1,0 +1,117 @@
+/* Write your CSS here */
+.bg-page {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+.heading {
+  color: #475569;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.para {
+  color: #475569;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.para-span {
+  color: #0b69ff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 30px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  flex-grow: 1;
+  margin-bottom: 30px;
+}
+.transaction-heading {
+  color: #475569;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.title-label {
+  color: #7e858e;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.title {
+  width: 250px;
+  color: #7e858e;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.select {
+  color: #7e858e;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 250px;
+}
+.add-btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  width: 55px;
+}
+.transaction-history-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.history-container {
+  padding: 30px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  margin-left: 50px;
+  flex-grow: 2;
+  margin-bottom: 30px;
+}
+.history-heading {
+  color: #475569;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.history-list-container {
+  list-style-type: none;
+}
+.list-container {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  border-radius: 2px;
+  justify-content: space-around;
+  padding: 0px;
+}
+.history-item {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  border-radius: 2px;
+  justify-content: space-around;
+  padding: 0px;
+}
+.history-item {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.delete {
+  height: 20px;
+  width: 20px;
+}
+.btn-delete {
+  border: none;
+  background-color: transparent;
+}
